@@ -1,11 +1,4 @@
-# Reproducible Data Pipeline & Tabular ML  (Name: <YOUR NAME> | Roll no: <YOUR ROLL NO>)
-
-> **STATUS:** this repo currently runs on a SYNTHETIC demo dataset so the code can be tested.
-> Replace it with your TA-approved real dataset (see "Switching to your real dataset") before submitting.
-
-## Dataset
-Source URL: <...> | Licence: <...> | Access date: <...> | Rows x columns: <...>
-Target: `sla_breached` (request closed after 72 h). Why useful: <who would use the prediction and for what>.
+# Reproducible Data Pipeline & Tabular ML  (Name: Ahmad Ayaz | Trainee ID TRN-2026-000371)
 
 ## Setup and run (fresh clone)
 ```bash
