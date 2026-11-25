@@ -1,0 +1,7 @@
+category,n,mean_hours,median_hours,breach_rate
+garbage,1797,41.654,35.629,0.109
+noise,1455,27.762,23.867,0.029
+pothole,1441,122.477,107.554,0.738
+stray animal,733,54.049,47.658,0.217
+street light,744,95.884,84.355,0.605
+water leak,1049,81.099,69.014,0.469

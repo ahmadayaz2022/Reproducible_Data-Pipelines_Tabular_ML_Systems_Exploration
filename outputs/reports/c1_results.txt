@@ -1,0 +1,16 @@
+
+EXPLAIN QUERY PLAN (no index):
+   SCAN f
+   BLOOM FILTER ON p (author_id=?)
+   SEARCH p USING AUTOMATIC COVERING INDEX (author_id=?)
+   USE TEMP B-TREE FOR ORDER BY
+no index: 601.54 ms per feed query
+
+EXPLAIN QUERY PLAN (with index):
+   SEARCH f USING INDEX idx_follows (follower_id=?)
+   SEARCH p USING COVERING INDEX idx_posts_author_time (author_id=?)
+   USE TEMP B-TREE FOR ORDER BY
+with index: 0.18 ms per feed query
+speed-up from indexes: 3282.0x
+
+with in-memory cache (hit): 0.0003 ms per feed

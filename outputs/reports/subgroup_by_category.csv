@@ -1,0 +1,7 @@
+category,n,error_rate,recall,precision
+garbage,369.0,0.098,0.0,0.0
+noise,289.0,0.014,0.0,0.0
+pothole,296.0,0.176,0.923,0.854
+stray animal,142.0,0.239,0.029,0.5
+street light,150.0,0.353,0.615,0.787
+water leak,198.0,0.283,0.567,0.75

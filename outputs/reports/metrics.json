@@ -1,0 +1,36 @@
+{
+  "rows_raw": 8240,
+  "missing_pct_before": {
+    "request_id": 0.0,
+    "created_at": 0.0,
+    "closed_at": 6.23,
+    "agency": 0.0,
+    "category": 0.0,
+    "district": 8.2,
+    "channel": 4.55,
+    "priority": 0.0,
+    "latitude": 3.59,
+    "longitude": 4.09,
+    "description_len": 2.91,
+    "num_updates": 0.0
+  },
+  "duplicates_removed": 240,
+  "validation_pass_rate": 0.9024,
+  "rows_rejected": 781,
+  "gate_threshold": 0.8,
+  "gate": "PASSED",
+  "hours_iqr_outliers": 370,
+  "rows_clean": 7219,
+  "missing_pct_after": {
+    "latitude": 4.79,
+    "longitude": 4.14,
+    "description_len": 3.86,
+    "num_updates": 1.03,
+    "agency": 0.0,
+    "category": 0.0,
+    "district": 0.0,
+    "channel": 0.0,
+    "priority": 0.0
+  },
+  "breach_rate": 0.3329
+}

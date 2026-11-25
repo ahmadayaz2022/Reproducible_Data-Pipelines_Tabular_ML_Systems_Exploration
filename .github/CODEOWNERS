@@ -1,0 +1,5 @@
+# Who must review which files (replace with real GitHub usernames)
+/src/            @your-username
+/tests/          @your-username
+/.github/        @your-username
+/docs/           @your-username

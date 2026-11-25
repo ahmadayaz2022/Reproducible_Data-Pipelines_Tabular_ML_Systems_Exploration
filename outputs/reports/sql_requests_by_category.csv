@@ -1,0 +1,7 @@
+category,n_requests,avg_hours,breach_pct
+pothole,1441,122.5,73.8
+street light,744,95.9,60.5
+water leak,1049,81.1,46.9
+stray animal,733,54.0,21.7
+garbage,1797,41.7,10.9
+noise,1455,27.8,2.9
